@@ -162,6 +162,43 @@ const Calculadora = () => {
  
 };
 
+const styles = StyleSheet.create({
+
+  
+    resultcontainer: {
+        marginBottom: 20,
+        color: 'white'
+    },
+    resultText: {
+        fontSize: 20,
+        fontWeight: 'bold',
+         color: 'white'
+    },
+    buttonContainer: {
+        width: 300,
+
+    },
+    row: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginBottom: 10,
+    },
+    button: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'green',
+        padding: 10,
+        borderRadius: 5,
+        margin: 4
+    },
+    buttonText: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: 'white'
+    },
+
+});
 
 
 export default Calculadora;
